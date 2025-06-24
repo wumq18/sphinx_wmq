@@ -1,0 +1,39 @@
+.. wumq-sphinx documentation master file, created by
+   sphinx-quickstart on Tue Jun 24 19:30:56 2025.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+wumq-sphinx documentation
+=========================
+
+.. Add your content using ``reStructuredText`` syntax. See the
+.. `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
+.. documentation for details.
+
+
+1. 在命令行中运行以下命令来创建一个新的 Sphinx 文档项目：
+
+   .. code-block:: bash
+
+      sphinx-quickstart
+
+   按照提示输入项目名称、作者等信息，选择中文语言（zh_CN）
+
+2. 在 source 目录下 `index.rst` 添加正文内容，在
+   `conf.py` 文件中修改配置。
+
+3. 在 toctree 中添加章节内容
+
+4. 在命令行中运行以下命令来生成 HTML 文档：
+
+   .. code-block:: bash
+
+      make html
+      make clean # 清理生成的文件
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   01数学
+   02物理
